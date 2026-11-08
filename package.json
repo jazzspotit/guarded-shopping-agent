@@ -1,0 +1,31 @@
+{
+  "name": "guarded-shopping-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI shopping agent with guardrails: Channel3 product search + PayPal checkout",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.113",
+    "@ai-sdk/google": "^2.0.109",
+    "@ai-sdk/openai": "^2.0.141",
+    "ai": "^5.0.286",
+    "next": "^15.5.29",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}
